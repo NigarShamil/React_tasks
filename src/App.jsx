@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Modal from './components/Modal';
 import SetTimer from './components/Set_timer';
+import Form from './components/Form/Form';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +14,8 @@ function App() {
     //   </button>
     //   {isOpen && <Modal setIsOpen={setIsOpen} />}
     // </main>
-    <SetTimer/>
+    // <SetTimer/>
+    <Form/>
   );
 }
 
